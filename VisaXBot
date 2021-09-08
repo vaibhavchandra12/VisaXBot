@@ -1,0 +1,46 @@
+_get_repolink () {
+    local regex
+    regex='(https?)://github.com/.+/.+'
+    if [[ $VISA_REPO == "VisaXBot" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORC1PUy9MRUdFTkRVU0VSQk9UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+    elif [[ $VISA_REPO == "VisaXBot" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORC1PUy9MRUdFTkRVU0VSQk9UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+    elif [[ $VISA_REPO =~ $regex ]]
+    then
+        if [[ $VISA_REPO_BRANCH ]]
+        then
+            echo "${VISA_REPO}/archive/${VISA_REPO_BRANCH}.zip"
+        else
+            echo "${VISA_REPO}/archive/master.zip"
+        fi
+    else
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORC1PUy9MRUdFTkRVU0VSQk9UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+    fi
+}
+
+
+_set_bot () {
+    local zippath
+    zippath="VisaXBot.zip"
+    echo "  Downloading VisaXBot Source Code..."
+    wget -q $(_get_repolink) -O "$zippath"
+    echo "  Unpacking Data ..."
+    VISAPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    unzip -qq "$zippath"
+    echo "Done"
+    echo "  VisaXBot Cleaning.."
+    rm -rf "$zippath"
+    sleep 5
+    cd $VISAPATH
+    echo "    🔮Starting Vîsãẞø†🔮     "
+    echo "
+    VisaXBot
+    "
+
+    python3 ../setup/updater.py ../requirements.txt requirements.txt
+    python3 -m userbot
+}
+
+_set_bot
