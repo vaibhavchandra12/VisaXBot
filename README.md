@@ -29,9 +29,9 @@ Enjoy Your Bot!!💝
 
   <summary> Credits 🏅 </summary>
 
-• [𝐂𝐀𝐋𝐋𝐌𝐄𝐕𝐏](https://github.com/CALLMEVP)❂DEV❂
+• [𝐂𝐀𝐋𝐋𝐌𝐄𝐕𝐏](https://github.com/CALLMEVP) DEV✭
 
-• [𝐃15𝐇4𝐍𝐓0𝐏](https://GitHub.com/D15H4NT0P)❂DEV❂
+• [𝐃15𝐇4𝐍𝐓0𝐏](https://GitHub.com/D15H4NT0P) DEV✭
 </details>
 
 <details>
