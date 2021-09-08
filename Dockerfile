@@ -1,5 +1,5 @@
 #Repo Clonning 🌚♥️
-RUN git clone https://github.com/D15H4NT0P/VisaX-UB.git /root/userbot
+RUN git clone https://github.com/CallmeVp/VisaX-UB.git /root/userbot
 
 #working directory 
 WORKDIR /root/userbot
