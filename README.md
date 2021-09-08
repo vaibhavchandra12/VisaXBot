@@ -19,7 +19,7 @@ Don't forget to star this repo if you liked it.
 
 Enjoy Your Bot!!💝
 
-[![VisaXBot logo]()](https://t.me/Visa_support)
+[![VisaXBot logo](https://telegra.ph/file/c83608db30d64c47c3df8.png)](https://t.me/Visa_support)
 
 ### The owner would not be responsible for any kind of bans due to the bot...
 
