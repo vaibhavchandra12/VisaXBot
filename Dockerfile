@@ -1,7 +1,7 @@
 FROM CallmeVp/VisaXBot:latest
 
 #clonning repo 
-RUN git clone https://github.com/CallmeVp/VisaX-UB.git /root/DeadlyBot
+RUN git clone https://github.com/CallmeVp/VisaX-UB.git /root/VisaXBot
 
 #working directory 
 WORKDIR /root/VisaXBot
