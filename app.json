@@ -11,9 +11,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/DEADLY-FIGHTERS/",
-  "website": "https://github.com/DEADLY-FIGHTERS/",
-  "success_url": "https://t.me/DEADLY_USERBOT",
+  "repository": "https://github.com/callmevp/",
+  "website": "https://github.com/callmevp/",
+  "success_url": "https://t.me/VISA_SUPPORT",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
@@ -45,7 +45,7 @@
       "required": false
     },
     "PM_LOG_ID": {
-      "description": "Fill your private Channel ID if you want to Log PM messages. Get channel id from @DEADLY_MANAGER_BOT",
+      "description": "Fill your private Channel ID if you want to Log PM messages. Get channel id from @MissRose_bot",
       "value": "-1001586173752",
       "required": false
     },
@@ -74,10 +74,10 @@
       "value": ""
     },
     "LOGGER_ID": {
-      "description": "Create a private channel. And get it's id from @DEADLY_MANAGER_BOT and paste here. Value should start with -100",
+      "description": "Create a private channel. And get it's id from @MissRose_bot and paste here. Value should start with -100",
       "value": "-1001586173752"
     },
-    "DEADLY_KAAL_SESSION": {
+    "VISA_X_SESSION": {
       "description": "Get this value by using repl or termux. Refer to Repo for more info.",
       "value": ""
     },
@@ -105,12 +105,12 @@
       "value": "t.me/VISAX_PUBLIC__BOT"
     },
     "YOUR_CHANNEL": {
-      "description": "Fill your channel username(without @) to get this displayed on your MIKASA Alive.",
+      "description": "Fill your channel username(without @) to get this displayed on your VISA-X Alive.",
       "value": "",
       "required": false
     },
     "YOUR_GROUP": {
-      "description": "Fill your group username(without @) to get this displayed on your MIKASA Alive.",
+      "description": "Fill your group username(without @) to get this displayed on your VISA-X Alive.",
       "value": "",
       "required": false
     },
