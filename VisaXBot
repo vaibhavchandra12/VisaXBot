@@ -3,10 +3,10 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $VISA_REPO == "VisaXBot" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORC1PUy9MRUdFTkRVU0VSQk9UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2NhbGxtZXZwL1Zpc2FYLVVC" | base64 -d
     elif [[ $VISA_REPO == "VisaXBot" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORC1PUy9MRUdFTkRVU0VSQk9UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2NhbGxtZXZwL1Zpc2FYLVVC" | base64 -d
     elif [[ $VISA_REPO =~ $regex ]]
     then
         if [[ $VISA_REPO_BRANCH ]]
@@ -16,7 +16,7 @@ _get_repolink () {
             echo "${VISA_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0xFR0VORC1PUy9MRUdFTkRVU0VSQk9UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2NhbGxtZXZwL1Zpc2FYLVVC" | base64 -d
     fi
 }
 
