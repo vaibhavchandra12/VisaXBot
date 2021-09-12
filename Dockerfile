@@ -9,6 +9,6 @@ WORKDIR /root/VisaXBot
 # Install requirements
 RUN pip3 install -U -r requirements.txt
 
-ENV PATH="/home/userbot/bin:$PATH"
+ENV PATH="/home/VisaXBot/bin:$PATH"
 
 CMD ["python3","-m","VisaXBot"]
